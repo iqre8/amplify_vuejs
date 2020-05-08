@@ -1,5 +1,11 @@
 # amplify_vuejs
 
+## Project created:
+```
+vue create amplify_vuejs
+```
+Select the default options
+
 ## Project setup
 ```
 yarn install
