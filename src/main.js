@@ -2,9 +2,15 @@ import Vue from 'vue'
 import '@aws-amplify/ui-vue';
 import Amplify from 'aws-amplify';
 import App from './App.vue'
-import awsconfig from './aws-exports';
 
-Amplify.configure(awsconfig);
+Amplify.configure({
+  Auth: {
+    aws_project_region: '<region>',
+    region: '<region>',
+    userPoolId: '<pool_id>',
+    userPoolWebClientId: '<pool_web_id>',
+  }
+});
 Vue.config.productionTip = false
 
 new Vue({

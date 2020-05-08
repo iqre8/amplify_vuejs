@@ -6,6 +6,13 @@ vue create amplify_vuejs
 ```
 Select the default options
 
+```
+Add amplify-ui to the project
+```
+yarn add aws-amplify @aws-amplify/ui-vue
+```
+
+
 ## Project setup
 ```
 yarn install
